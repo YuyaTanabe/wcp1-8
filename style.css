@@ -1,0 +1,64 @@
+/* wcp1-8 */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.box {
+	margin: 50px auto;
+	width: 960px;
+}
+.box-mini {
+	float: left;
+	width: 32%;
+	margin-right: 2%;
+	padding: 10px;
+	position: relative;
+	border: 1px solid #eee;
+}
+.box-mini:last-child {
+	margin-right: 0;
+}
+
+.box-image1 {
+	height: 150px;
+	background-image: url(img/flow01.png);
+	background-size: cover;
+	background-position: bottom;
+}
+
+.box-image2 {
+	height: 150px;
+	background-image: url(img/flow02.png);
+	background-size: cover;
+	background-position: bottom;
+}
+
+.box-image3 {
+	height: 150px;
+	background-image: url(img/flow03.png);
+	background-size: cover;
+	background-position: bottom;
+}
+
+.step-num{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #FF9A4B;
+    color: #fff;
+    padding: 3px;
+}
+
+.title{
+    margin: 15px 0 5px;
+}
+
+
